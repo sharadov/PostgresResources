@@ -1,4 +1,4 @@
-# PostgresResources
+# Postgres Resources
 
 
 How to read an Explain Plan?

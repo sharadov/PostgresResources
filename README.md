@@ -10,3 +10,7 @@ https://www.cybertec-postgresql.com/en/how-to-interpret-postgresql-explain-analy
 Different joins in an Explain Plan
 
 https://stackoverflow.com/questions/49023821/nested-join-vs-merge-join-vs-hash-join-in-postgresql
+
+Checkpoints occuring too frequently
+
+https://dba.stackexchange.com/questions/117479/checkpoints-are-occurring-too-frequently-during-pg-restore

@@ -15,6 +15,10 @@ Checkpoints occuring too frequently
 
 https://dba.stackexchange.com/questions/117479/checkpoints-are-occurring-too-frequently-during-pg-restore
 
+Troubleshoot Postgres Performance Deep Dive
+
+https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
+
 What is MVCC?
 
 MVCC, which stands for multiversion concurrency control, is one of the main techniques Postgres uses to implement transactions. MVCC lets Postgres run many queries that touch the same rows simultaneously, while keeping those queries isolated from each other.

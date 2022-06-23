@@ -34,15 +34,19 @@ Under MVCC, an insert is handled by inserting a new row with the txid of the cur
 MVCC is ultimately great for two reasons. First, it offers a simple model for reasoning about the behavior of queries. All queries create a snapshot of the database when they start and only see the data in that snapshot. Second it offers decent performance. With MVCC, there is almost no need for locks. MVCC makes it impossible for read queries to block on write queries or for write queries to block on read queries.
 
 RDS Proxy
+
 https://aws.amazon.com/rds/proxy/
 
 pg-pool2 vs pgbouncer
+
 https://scalegrid.io/blog/postgresql-connection-pooling-part-2-pgbouncer/
 
 Elastic search 
+
 https://www.alibabacloud.com/blog/combining-elasticsearch-with-dbs-application-system-scenarios_597112
 
 
 Postgres Parameters
+
 https://postgresqlco.nf/doc/en/param/shared_buffers/
 
